@@ -19,7 +19,7 @@ __________
 Many universities like Manipal and IIT Madras reported a lot of cases a week after opening their campus.This was mainly because the students didn't really know who they were coming in close contact with And a lot of these kinds are situation are coming up time and again. 
 In this pandemic, all we need to do is stay safe, but how do we do that if we don't know who's infected and who's not?
 Here's PATRONUS! 
-Our team TechBash has come with a solution, PATRONUS, a contact tracer app, which works on bluetooth technology, that detects and logs who u come in contact with. Also the admin can very easily set the status of someone who turns positive and the app will do the rest and set the status of everyone that is at risk of contamination.It collects only essential data like frequent contacts so you won't need to worry about any personal data getting in the wrong hands. 
+Our team 'adeelasakkeer_8998' has come with a solution, PATRONUS, a contact tracer app, which works on bluetooth technology, that detects and logs who u come in contact with. Also the admin can very easily set the status of someone who turns positive and the app will do the rest and set the status of everyone that is at risk of contamination.It collects only essential data like frequent contacts so you won't need to worry about any personal data getting in the wrong hands. 
 _________
 ## Tech stack:
 * Android Studio
