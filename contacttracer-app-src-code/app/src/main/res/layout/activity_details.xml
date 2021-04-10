@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details">
+
+    <EditText
+        android:id="@+id/floor"
+        android:layout_width="260dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="376dp"
+
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_elevator_24"
+        android:drawablePadding="12dp"
+        android:drawableTint="@color/black"
+        android:ems="10"
+        android:hint="Floor"
+
+        android:inputType="none|number"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/room"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/room"
+        app:layout_constraintTop_toBottomOf="@+id/room"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/room"
+        android:layout_width="260dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_sensor_door_24"
+        android:drawablePadding="12dp"
+
+        android:drawableTint="@color/black"
+        android:ems="10"
+        android:hint="Room Number"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364" />
+
+    <EditText
+        android:id="@+id/block"
+        android:layout_width="260dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="312dp"
+
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_apartment_24"
+        android:drawablePadding="12dp"
+        android:drawableTint="@color/black"
+
+        android:ems="10"
+        android:hint="Block"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/room"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/room"
+        app:layout_constraintTop_toBottomOf="@+id/floor"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="282dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="65dp"
+        android:onClick="submitData"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/wave5"
+        tools:visibility="gone" />
+</androidx.constraintlayout.widget.ConstraintLayout>

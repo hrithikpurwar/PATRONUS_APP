@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+
+  <color name="purple_500">#ffc83a</color> <!--  primary color (light)-->
+  <color name="title_yellow">#e8b828</color>
+    <color name="purple_700">#ffb253</color><!--  nav bar color (light)-->
+    <color name="teal_200">#B6F4E9</color>
+  <color name="teal_700">#B6F4E9</color>
+  <color name="positive">#df6a6a</color>
+  <color name="grey">#8d4485</color>
+  <color name="green">#d0f0c0</color>
+  <color name="yellow">#fee12b</color>
+
+  <!--    <color name="teal_700">#FF018786</color>-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+
+  <color name="text">#FF000000</color>
+
+  <!--    <color name="purple_200">#FFCF53</color>-->
+<!--    <color name="purple_500">#FFCF53</color>-->
+<!--    <color name="purple_700">#FFCF53</color>-->
+<!--    <color name="teal_200">#A3DBD1</color>-->
+<!--    <color name="teal_700">#FF018786</color>-->
+<!--    <color name="black">#FF000000</color>-->
+<!--    <color name="white">#FFFFFFFF</color>-->
+</resources>

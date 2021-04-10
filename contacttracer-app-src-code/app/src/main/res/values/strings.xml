@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Contact Tracer</string>
+    <string name="my_text">This is an <u><font color='red'>underline</font></u>.</string>
+</resources>
